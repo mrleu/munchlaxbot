@@ -9,6 +9,7 @@ async def send_message(message, user_message, is_private):
     except Exception as e:
         print(f"Error with message:{e}")
 
+
 def run_discord_bot():
     TOKEN = os.getenv('MUNCHLAXBOT_TOKEN')
     def_intents = discord.Intents.default()
